@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Student Profile and Marks Calculator</title>
+  </head>
+  <body>
+      <script>
+        let name = prompt("Enter your name:");
+        let city = prompt("Enter your city:");
+        let age = Number(prompt("Enter your age:"));
+        let marks1 = Number(prompt("Enter marks for subject 1:"));
+        let marks2 = Number(prompt("Enter marks for subject 2:"));
+        let marks3 = Number(prompt("Enter marks for subject 3:"));
+        let totalMarks = marks1 + marks2 + marks3;
+        let averageMarks = totalMarks / 3;
+        let nextyearage = age + 1;
+        alert(`============== Student Profile ==============
+            Name: ${name}
+            City: ${city}
+            Age: ${age}
+            Subject 1: ${marks1}
+            Subject 2: ${marks2}
+            Subject 3: ${marks3}
+            Next Year's Age: ${nextyearage}
+            Total Marks: ${totalMarks}
+            Average Marks: ${averageMarks.toFixed(2)}
+          `)
+
+
+
+
+      </script>
+  </body>
+</html>
